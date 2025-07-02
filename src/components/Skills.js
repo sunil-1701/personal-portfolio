@@ -14,7 +14,7 @@ export const Skills = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -37,7 +37,39 @@ export const Skills = () => {
                 <Carousel responsive={responsive} infinite={true} className="skill-slider">
                     <div className="item">
                         <img src={meter1} alt="img"/>
-                        <h5>Web Development</h5>
+                        <h5>React.js</h5>
+                    </div>
+                    <div className="item">
+                        <img src={meter1} alt="img"/>
+                        <h5>Node.js</h5>
+                    </div>
+                    <div className="item">
+                        <img src={meter1} alt="img"/>
+                        <h5>MongoDB</h5>
+                    </div>
+                    <div className="item">
+                        <img src={meter3} alt="img"/>
+                        <h5>SQL</h5>
+                    </div>
+                    <div className="item">
+                        <img src={meter3} alt="img"/>
+                        <h5>API Integration</h5>
+                    </div>
+                    <div className="item">
+                        <img src={meter1} alt="img"/>
+                        <h5>Docker</h5>
+                    </div>
+                    <div className="item">
+                        <img src={meter1} alt="img"/>
+                        <h5>Version Control</h5>
+                    </div>
+                    <div className="item">
+                        <img src={meter2} alt="img"/>
+                        <h5>Python</h5>
+                    </div>
+                    <div className="item">
+                        <img src={meter2} alt="img"/>
+                        <h5>JavaScript</h5>
                     </div>
                     <div className="item">
                         <img src={meter2} alt="img"/>

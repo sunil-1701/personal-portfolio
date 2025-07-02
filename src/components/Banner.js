@@ -5,7 +5,7 @@ import headerImg from "../assets/img/header-img.svg";
 export const Banner = () => {
   const [loopNum, setLoopNum]= useState(0);
   const [isDeleting, setIsDeleting]= useState(false);
-  const toRotate = ["Web Developer","Web Designer","UI/UX Designer"];
+  const toRotate = ["Full Stack Developer","Web Designer","UI/UX Designer"];
   const [text, setText]= useState('');
   const [delta, setDelta]=useState(300 - Math.random()*100);
   const period =2000;
@@ -46,7 +46,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
           <span className="tagline">Welcome to my Portfolio-Verse</span>
           <h1>{`Hi I'm Sunil`}<span className="wrap"> a {text}</span></h1>
-          <p>Tech enthusiast, learning and exploring various tech domains. Looking forward to work on some real world problems and solve them. Keen to expand my knowledge on emerging technologies...</p>
+          <p>A Full Stack developer, with hands on experience in MERN Full Stack, Version Control and Docker. Looking forward to work on some real world problems and solve them. Keen to expand my knowledge on emerging technologies...</p>
           
           </Col>
           <Col xs={12} md={6} xl={5}>

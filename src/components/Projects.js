@@ -3,6 +3,8 @@ import { ProjectCards } from "./ProjectCards";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import portfoliopage from "../assets/img/portfolio-page.png";
 import projImg1 from "../assets/img/project-img1.png";
+import projImg2 from "../assets/img/project-img2.png";
+import projImg3 from "../assets/img/project-img3.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -17,6 +19,19 @@ export const Projects = () => {
       title: "Credit Card Fraud",
       description: "Anomaly Detection, Machine Learning",
       imgUrl: projImg1,
+      projectUrl:"https://github.com/sunil-1701/Credit-Card-Fraud",
+    },
+    {
+      title: "GenAI Chatbot",
+      description: "Full Stack MERN & API Integration",
+      imgUrl: projImg2,
+      projectUrl:"https://github.com/sunil-1701/Mr-Penguin-GenAI-Chatbot",
+    },
+    {
+      title: "Realtime Chat Application",
+      description: "Full Stack MERN and Socket.io",
+      imgUrl: projImg3,
+      projectUrl: "https://minimalist-convo.onrender.com/login",
     },
     ];
   return (
