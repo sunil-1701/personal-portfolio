@@ -47,7 +47,7 @@ export const Banner = () => {
           <span className="tagline">Welcome to my Portfolio-Verse</span>
           <h1>{`Hi I'm Sunil`}<span className="wrap"> a {text}</span></h1>
           <p>A Full Stack developer, with hands on experience in MERN Full Stack, Version Control and Docker. Looking forward to work on some real world problems and solve them. Keen to expand my knowledge on emerging technologies...</p>
-          
+          <p>Apart from being a developer, I love listening to music and playing guitar...</p> 
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt="Header Img" />
